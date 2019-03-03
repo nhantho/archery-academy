@@ -13,17 +13,15 @@ header {
 }
 
 section.main {
-  grid-column: 5 / span 8;
-  grid-row: auto;
+  grid-column: 3 / span 9;
   padding: 1em 4em 1em 4em;
-  margin: 0em -1em 0em -1em;
+  margin: -1em -1em 0em -1em;
 }
 
 
 aside {
   background-color: #1b447f;
-  grid-column: 1 / span 4;
-  grid-row: auto;
+  grid-column: 1 / span 2;
   padding: 1em 4em 1em 4em;
   margin: 0em -1em 0em -1em;
 }
@@ -138,19 +136,4 @@ strong {
   text-transform: uppercase;
   color: #ecb722;
   font-size: 14px;
-}
-
-table, th, td {
-  border: 1px solid #444444;
-  padding: 10px 10px 10px 10px;
-}
-
-th {
-  text-transform: uppercase;
-  color: #03a3df;
-}
-
-table {
-  border-collapse: collapse;
-  font-family: Arial, sans-serif;
 }
