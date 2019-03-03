@@ -26,7 +26,6 @@ aside {
   grid-row: auto;
   padding: 1em 4em 1em 4em;
   margin: 0em -1em 0em -1em;
-  font-color: white;
 }
 
 nav {
@@ -133,4 +132,25 @@ img.footer-img {
   text-decoration: none;
   font-family: Arial, sans-serif;
   font-size: 17px;
+}
+
+strong {
+  text-transform: uppercase;
+  color: #ecb722;
+  font-size: 14px;
+}
+
+table, th, td {
+  border: 1px solid #444444;
+  padding: 10px 10px 10px 10px;
+}
+
+th {
+  text-transform: uppercase;
+  color: #03a3df;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
 }
