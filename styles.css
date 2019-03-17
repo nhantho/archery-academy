@@ -194,3 +194,14 @@ strong {
   color: #ecb722;
   font-size: 14px;
 }
+
+
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+
+.hidden:focus {
+  left: 0;
+}
